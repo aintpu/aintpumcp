@@ -1,0 +1,64 @@
+{
+  "source_repository": "https://github.com/aintpu/ntpu-ai-assistant",
+  "source_commit": "41f8053170e08d4e5133a87543b4a1e8d225cfef",
+  "generated_at": "2026-09-17T08:23:48.830594+00:00",
+  "policy": "approved-public-files-only",
+  "files": {
+    "crawler_data/ALL_files_2.md": {
+      "sha256": "5c435472edce0f2491c104b12a12b7008b2b68fecc05027a35ebc163bfb585d1",
+      "bytes": 711299
+    },
+    "crawler_data/all_content_v2.md": {
+      "sha256": "f3d746547188806bc826fe3d0f11d627dd8559140599d1f8a542eee15454b414",
+      "bytes": 959566
+    },
+    "crawler_data/cge_content.md": {
+      "sha256": "3ad6b897da08e4f74b00c7929b066c524f467c6c967dc04f6e8a35a15db9420e",
+      "bytes": 435146
+    },
+    "crawler_data/hr_content.md": {
+      "sha256": "e1c39ef6336a9b107e0542a50377792eb7038217957b0fcb90537ea99641bb42",
+      "bytes": 27194
+    },
+    "crawler_data/lc_content.md": {
+      "sha256": "ff18ad232a615ba941ec9d4661b2887d8f83761f51fc0a817867a718facec263",
+      "bytes": 376009
+    },
+    "crawler_data/oaa_regulations.md": {
+      "sha256": "596e5529aae4de2bed79f615ca3dc52e816cbac3e60833bb5eb84fb51c6e6563",
+      "bytes": 1034096
+    },
+    "crawler_data/oga_content.md": {
+      "sha256": "0a11514fd8cb55ca00b9211ac09a31c5591fed871da33e8ccad043d30340d210",
+      "bytes": 31190
+    },
+    "crawler_data/osa_regulations.md": {
+      "sha256": "fbe74255074e2fac81f9336c1354bdf52211e4b7d1ef6d112dce545032bc6e2d",
+      "bytes": 1744304
+    },
+    "crawler_data/北大學術單位法規彙整.xlsx": {
+      "sha256": "b6942eb8f824ffe327ba93ed79962f4d875064158f42d49d1c1708acf4154eff",
+      "bytes": 92974
+    },
+    "crawler_data/北大行政單位法規彙整.xlsx": {
+      "sha256": "ffa3b10e30ac459fa2094e75dd17f0c5083158f15ea6029d56fbe330efae275c",
+      "bytes": 32984
+    },
+    "documents/hr/form-11-attendance-leave-request.pdf": {
+      "sha256": "9d3b6824d7b1512bcdeaea01b8635a74745ce6b157ad6724b92192e4fc9a791d",
+      "bytes": 72501
+    },
+    "documents/hr/form-14-offsite-attendance-sign-sheet.pdf": {
+      "sha256": "509bbf2a4544c265208949e2534b5f9e56674ff34693b47187377d1ab1979298",
+      "bytes": 66471
+    },
+    "documents/hr/hr-attendance-faq-11508.docx": {
+      "sha256": "7c1cc4f434f40bef85f8d1759e703d1d5625ba83654f7ae679e27245639a1d95",
+      "bytes": 23893
+    },
+    "documents/hr/new-taipei-labor-standards-leave-qa.pdf": {
+      "sha256": "ff707f6cb60d61cec365b92af808192b2411f462027ca04296d6c33d171f160c",
+      "bytes": 7638934
+    }
+  }
+}

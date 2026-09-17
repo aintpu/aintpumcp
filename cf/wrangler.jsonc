@@ -1,0 +1,45 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ntpu-aia-mcp",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-17",
+  "compatibility_flags": ["nodejs_compat"],
+
+  "routes": [
+    {
+      "pattern": "aia.mcp.ntpu.ai",
+      "custom_domain": true
+    }
+  ],
+
+  "containers": [
+    {
+      "class_name": "NtpuAiaMcpBackend",
+      "image": "../Dockerfile",
+      "image_build_context": "..",
+      "instance_type": "basic",
+      "max_instances": 1
+    }
+  ],
+
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "BACKEND",
+        "class_name": "NtpuAiaMcpBackend"
+      }
+    ]
+  },
+
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["NtpuAiaMcpBackend"]
+    }
+  ],
+
+  "observability": {
+    "enabled": true
+  }
+}
+
