@@ -1,16 +1,13 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "ntpu-aia-mcp",
+  "name": "ntpu-aia-mcp-legacy",
   "main": "src/index.js",
   "compatibility_date": "2026-09-17",
   "compatibility_flags": ["nodejs_compat"],
 
-  "routes": [
-    {
-      "pattern": "aia.mcp.ntpu.ai",
-      "custom_domain": true
-    }
-  ],
+  // 原本的 ntpu-aia-mcp 名稱與 aia.mcp.ntpu.ai 網域已轉給 ntpu-ai-assistant 的新 MCP（mcp/）。
+  // 本 Worker 改名為 ntpu-aia-mcp-legacy，僅以 workers.dev 網址提供。
+  "workers_dev": true,
 
   "containers": [
     {
