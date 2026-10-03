@@ -13,7 +13,7 @@ export class NtpuAiaMcpBackend extends Container {
   constructor(ctx, env) {
     super(ctx, env);
     this.envVars = {
-      MCP_ALLOWED_HOSTS: "aia.mcp.ntpu.ai,localhost:*,127.0.0.1:*",
+      MCP_ALLOWED_HOSTS: "ntpu-aia-mcp-legacy.aintpu.workers.dev,aia.mcp.ntpu.ai,localhost:*,127.0.0.1:*",
       PYTHONUNBUFFERED: "1",
     };
   }
